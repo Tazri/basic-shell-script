@@ -5,7 +5,11 @@ Bash Script
 
 This repository I create for document on shell script programming for me. In that case I learn to shell script programming from [Shell Script](https://www.shellscript.sh). I read the whole document and write important things here. Also I read other things. All the link which I used to learn shell script will attach at the last of this **README.MD** file.
 
-Before start first make the shell prompt like this : 
+Before Start documenting first necessary thing : 
+1. **[Make Shell Prompt Old](#make-shell-prompt-old)**
+2. 
+
+## Make Shell Prompt Old
 ```bash 
 $
 ```
@@ -31,7 +35,40 @@ $ PS="$ ";export PS1;
 
 Some shell or bash version dose not require to export PS1. 
 
-Table of Content : 
+## Comment 
+Comment formet in shell script is : 
+
+```bash 
+#!/bin/sh
+# Above is special type of comment which
+# This is the single line comment in shell scirpt
+
+<< COMMENTS
+This is multiline comment 
+line 1
+line 2
+line 3
+COMMENTS
+
+echo "Hello, Universe!";
+```
+
+<hr />
+<br />
+
+
+## Table of Content : 
 1. [A First Script](./00.first_script/00.first_script.md)
 2. [Variables](./01.variables/01.variables.md)
 3. [WildCards](./02.wildcards/02.wildcards.md)
+
+<hr />
+<br />
+
+
+The link which I use to learn :
+1. [Must of thing I learn here](https://www.shellscript.sh/index.html)
+2. [PS1](https://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/)
+3. [Comments](https://tecadmin.net/tutorial/bash-comments)
+4. [Environmental Variable](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-linux)
+5.  
